@@ -1,0 +1,57 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
+
+* {
+    font-family: Karla;
+}
+
+
+.wrap {
+    border: 1px solid black;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left; 
+    border: 1px solid black;
+    
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.topcard {
+    
+    background-color: white ; 
+    padding: 1rem;
+}
+
+
+.leftcard {
+   
+    background-color: hsl(179, 53%, 50%);
+    border: 2px solid black;
+    flex-basis: 100%;
+    padding: 1rem;
+    
+}
+
+.rightcard {
+    
+    background-color: hsl(179, 62%, 43%);
+    border: 2px solid black;
+    flex-basis: 100%;
+    padding: 1rem;
+}
